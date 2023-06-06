@@ -12,11 +12,11 @@ composer install
 
 Next, you need to enter your OpenAI key and Discord token in the ChatGPT.php file. Look for the following lines:
 
-```
+```php
 $discord = new Discord([
         'token' => 'your token',
     ]);
 ```
-```
+```php
 $open_ai_key = "your key";
 ```
