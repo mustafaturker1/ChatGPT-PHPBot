@@ -1,0 +1,15 @@
+{
+  "require": {
+    "team-reflex/discord-php": "^7.3",
+    "discord-php/http": "^9.1",
+    "openai-php/client": "^0.5.2",
+    "symfony/http-client": "^6.3",
+    "ext-curl": "*",
+    "orhanerday/open-ai": "^4.7"
+  },
+  "config": {
+    "allow-plugins": {
+      "php-http/discovery": true
+    }
+  }
+}
